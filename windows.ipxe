@@ -4,7 +4,7 @@
 # https://www.microsoft.com
 
 set winpe_arch x64
-set win_image Win11_24H2_EnglishInternational_x64
+set win_image Win11_24H2_English_x64
 #set win_base_url $$win_base_url$$
 goto ${menu} ||
 
@@ -23,7 +23,7 @@ goto ${win_version}
 
 :image_set
 menu Image
-item Win10_20H2_English_x64 Win10_20H2_English_x64
+item Win11_24H2_English_x64 Win11_24H2_English_x64
 choose win_image && goto windows
 
 :pe_arch_set
